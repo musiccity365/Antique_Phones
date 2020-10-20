@@ -1,8 +1,13 @@
-require_relative "./lib/api.rb"
-require_relative "./lib/cli.rb"
-require_relative "./lib/phone.rb"
+# First Load Bundler
+require 'bundler'
+# Require the Gems from the Gemfile using Bundler
+Bundler.require #=> This require's all gems in Gemfile
 
-require 'pry'
-require 'net/http'
-require 'json'
+
+# Load Libraries
+require_all './lib' # automatically made sure these files were required in the correct order
+
+# require 'pry'
+# require 'net/http'
+# require 'json'
 
