@@ -3,10 +3,10 @@ class CLI
     def start
         puts "Welcome"
         API.fetch_movies
-        self.movie # self is an instance
+        # self.movie # self is an instance
     end
 
-    def movie
+    # def movie
 
-    end
+    # end
 end

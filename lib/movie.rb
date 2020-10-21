@@ -1,3 +1,3 @@
-class Phone
+class Movie
     
 end
