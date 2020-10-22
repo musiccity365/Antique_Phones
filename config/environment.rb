@@ -12,7 +12,7 @@ puts "hi"
 cli_instance = CLI.new
 cli_instance.start
 
-require 'pry'
-require 'net/http'
-require 'json'
+# require 'pry'
+# require 'net/http'
+# require 'json'
 
